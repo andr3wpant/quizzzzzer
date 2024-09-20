@@ -7,10 +7,8 @@ from messages import message_start, message_help
 from http.server import test, SimpleHTTPRequestHandler
 import time
 
-load_dotenv()
 
-API_TOKEN = os.environ.get("TOKEN")
-bot = telebot.TeleBot("7180931590:AAHOlMy5dyshIW3dE_9Tft3JXa7PqmMmuEg")
+bot = telebot.TeleBot("XXXX")
 
 quiz_states = {}
 
